@@ -5,7 +5,7 @@
 // @description  Dodaje górna belkę z wybranymi statusami z listy zamówień / dodaje poświetlenie statusów na liście zamówień
 // @author       Pa-Jong
 // @match        https://elektrone.apilo.com/*
-// @require      https://pa-jong.github.io/ApiloStatusBar/ApiloStatusBar.user.js
+
 // @updateURL    https://pa-jong.github.io/ApiloStatusBar/update.json
 // @downloadURL  https://pa-jong.github.io/ApiloStatusBar/ApiloStatusBar.user.js
 // @grant        none
@@ -27,9 +27,9 @@
     statuses: {
       highlight: ['46', '34'],
       buttons: [
-        { id: 'create', text: 'Nowe', cls: 'primary', enabled: false },
-        { id: '46', text: 'Odbiór osobisty', cls: 'warning', enabled: false },
-        { id: '34', text: 'Wystawić dowód', cls: 'success', enabled: false },
+        { id: 'create', text: 'Nowe', cls: 'primary', enabled: true },
+        { id: '46', text: 'Odbiór osobisty', cls: 'warning', enabled: true },
+        { id: '34', text: 'Wystawić dowód', cls: 'success', enabled: true },
         { id: '64', text: 'Do spakowania', cls: 'success', enabled: true },
         { id: '70', text: 'Do spakowania (dowód)', cls: 'success', enabled: true }
       ]
