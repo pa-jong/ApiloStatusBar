@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Apilo: Status Bar Extender & Highlighter
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Dodaje górna belkę z wybranymi statusami z listy zamówień / dodaje poświetlenie statusów na liście zamówień
 // @author       Pa-Jong
 // @match        https://elektrone.apilo.com/*
